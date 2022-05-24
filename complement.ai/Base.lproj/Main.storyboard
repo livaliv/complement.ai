@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="complement_ai" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="iPhone 13 mini - 4" translatesAutoresizingMaskIntoConstraints="NO" id="Y1d-Rl-lyV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfx-nP-6MR">
+                                <rect key="frame" x="10" y="602" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="1">
+                                    <backgroundConfiguration key="background" image="Rectangle 23" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JVQ-79-3vh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4F-UC-bcf">
+                                <rect key="frame" x="10" y="510" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="4">
+                                    <backgroundConfiguration key="background" image="Rectangle 23" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YZR-Ru-A1y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FM5-tw-8I8">
+                                <rect key="frame" x="10" y="419" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="7">
+                                    <backgroundConfiguration key="background" image="Rectangle 23" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hGS-X5-HK9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czQ-8B-lH9">
+                                <rect key="frame" x="10" y="328" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.97647058819999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="A">
+                                    <backgroundConfiguration key="background" image="Rectangle 6" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dPs-T1-yxv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hI-eB-sIT">
+                                <rect key="frame" x="97" y="328" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.97647058819999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="B">
+                                    <backgroundConfiguration key="background" image="Rectangle 6" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pdy-RG-eGC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPc-LF-7pa">
+                                <rect key="frame" x="188" y="328" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.97647058819999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="C">
+                                    <backgroundConfiguration key="background" image="Rectangle 6" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v9M-hU-iKS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uli-SQ-kj3">
+                                <rect key="frame" x="277" y="419" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.97647058819999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="D">
+                                    <backgroundConfiguration key="background" image="Rectangle 6" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MRX-AB-uzJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKf-qF-75g">
+                                <rect key="frame" x="277" y="510" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.97647058819999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="E">
+                                    <backgroundConfiguration key="background" image="Rectangle 6" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JoM-W5-CmT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZS-Ue-mIV">
+                                <rect key="frame" x="99" y="419" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="8">
+                                    <backgroundConfiguration key="background" image="Rectangle 23" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pu4-YP-PMI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6j-Z3-XSJ">
+                                <rect key="frame" x="188" y="419" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="9">
+                                    <backgroundConfiguration key="background" image="Rectangle 23" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sxd-Gx-KOI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gN-Fg-xpv">
+                                <rect key="frame" x="99" y="510" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="5">
+                                    <backgroundConfiguration key="background" image="Rectangle 23" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CfM-eS-piZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXg-Di-lxo">
+                                <rect key="frame" x="188" y="510" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="6">
+                                    <backgroundConfiguration key="background" image="Rectangle 23" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VO2-M7-GxD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mh6-ZD-BIG">
+                                <rect key="frame" x="99" y="602" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="2">
+                                    <backgroundConfiguration key="background" image="Rectangle 23" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qp1-mw-Vnk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNt-RN-l23">
+                                <rect key="frame" x="188" y="602" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="3">
+                                    <backgroundConfiguration key="background" image="Rectangle 23" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uyt-b2-jMV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSc-4Y-PQ8">
+                                <rect key="frame" x="265" y="326" width="112" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" backgroundImage="delete.backward" catalog="system"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Rectangle 30"/>
+                                <connections>
+                                    <action selector="errouTroxa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L6T-a0-Yq2"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLs-ty-eFL">
+                                <rect key="frame" x="173" y="245" width="174" height="52"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="#" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TO9-GS-zWl">
+                                        <rect key="frame" x="-34" y="0.0" width="26" height="52"/>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="39"/>
+                                        <color key="textColor" red="0.25490196078431371" green="0.12549019607843137" blue="0.66274509803921566" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wds-MG-eab">
+                                        <rect key="frame" x="170" y="-11" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="49"/>
+                                        <color key="textColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Wds-MG-eab" firstAttribute="leading" secondItem="TO9-GS-zWl" secondAttribute="trailing" id="hEn-4l-ZEs"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wds-MG-eab" secondAttribute="trailing" constant="4" id="t3t-rj-uZ9"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="delete.backward" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xcb-7F-CPk">
+                                <rect key="frame" x="299" y="353.66666666666669" width="45" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nMt-WV-Hgf">
+                                <rect key="frame" x="136" y="693" width="241" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gx4-dg-8iZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="241" height="94"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="Rectangle 1"/>
+                                        <connections>
+                                            <action selector="calcula" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xn3-FC-wrH"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Complementar!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQx-v3-GpL">
+                                        <rect key="frame" x="14" y="28" width="213" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="26"/>
+                                        <color key="textColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8H-1Y-eby">
+                                <rect key="frame" x="10" y="697" width="135" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="0    ">
+                                    <backgroundConfiguration key="background" image="Rectangle 2" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hcd-Eq-I1U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8il-pO-Swl">
+                                <rect key="frame" x="277" y="602" width="88" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.97647058819999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="F">
+                                    <backgroundConfiguration key="background" image="Rectangle 6" imageContentMode="scaleAspectFit"/>
+                                    <fontDescription key="titleFontDescription" name="Thonburi" family="Thonburi" pointSize="32"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="averageTeco:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GAf-0n-nhT"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLC-3x-2mz">
+                                <rect key="frame" x="237" y="220" width="110" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="19"/>
+                                <color key="textColor" red="0.25490196079999999" green="0.12549019610000001" blue="0.66274509800000003" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oLs-ty-eFL" secondAttribute="trailing" constant="28" id="YpK-LB-jer"/>
+                            <constraint firstItem="oLs-ty-eFL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="195" id="ydX-fO-67d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="botaoA" destination="czQ-8B-lH9" id="U56-9W-HrI"/>
+                        <outlet property="botaoAcht" destination="UZS-Ue-mIV" id="dPm-yy-qze"/>
+                        <outlet property="botaoBe" destination="3hI-eB-sIT" id="PMk-ib-YFw"/>
+                        <outlet property="botaoDe" destination="uli-SQ-kj3" id="BMF-Kt-DC7"/>
+                        <outlet property="botaoDrei" destination="cNt-RN-l23" id="uzh-hP-Cql"/>
+                        <outlet property="botaoE" destination="FKf-qF-75g" id="HbG-tN-DuC"/>
+                        <outlet property="botaoEff" destination="8il-pO-Swl" id="LNT-lE-eYB"/>
+                        <outlet property="botaoEins" destination="dfx-nP-6MR" id="hks-Hi-SQW"/>
+                        <outlet property="botaoFunf" destination="1gN-Fg-xpv" id="BGG-oR-11m"/>
+                        <outlet property="botaoNeun" destination="B6j-Z3-XSJ" id="oXN-2y-jKs"/>
+                        <outlet property="botaoNull" destination="a8H-1Y-eby" id="J00-Zo-VzW"/>
+                        <outlet property="botaoSechs" destination="CXg-Di-lxo" id="Au4-WT-nLa"/>
+                        <outlet property="botaoSieben" destination="FM5-tw-8I8" id="y7F-Zj-67H"/>
+                        <outlet property="botaoTse" destination="NPc-LF-7pa" id="jGy-cT-1eh"/>
+                        <outlet property="botaoVier" destination="Y4F-UC-bcf" id="I8o-3Z-Fyb"/>
+                        <outlet property="botaoZwei" destination="mh6-ZD-BIG" id="VfH-Vk-YWV"/>
+                        <outlet property="corOriginal" destination="CLC-3x-2mz" id="xWC-fb-Gfr"/>
+                        <outlet property="textoBotaoGrande" destination="hQx-v3-GpL" id="KW4-H6-xad"/>
+                        <outlet property="textoGrande" destination="Wds-MG-eab" id="cMw-Xh-471"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="67.980295566502463"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rectangle 1" width="217" height="80"/>
+        <image name="Rectangle 2" width="135" height="80"/>
+        <image name="Rectangle 23" width="88" height="88"/>
+        <image name="Rectangle 30" width="88" height="88"/>
+        <image name="Rectangle 6" width="88" height="88"/>
+        <image name="delete.backward" catalog="system" width="128" height="104"/>
+        <image name="iPhone 13 mini - 4" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
